@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+}
+
+/*NAVBAR STYLES*/
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 1.2em;
+  color: white;
+}
+.navbar-content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*HEAD STYLES*/
+.head {
+  height: 80vh;
+  background-color: #6c63ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-content {
+  height: 75%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.head-text {
+  flex: 3;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.head-image {
+  flex: 2;
+  height: 80%;
+  margin-left: 20px;
+  background-image: url("./assets/undraw_building_websites_i78t.png");
+  background-position: center;
+  background-size: cover;
+}
+.main-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.main-sub-title {
+  font-size: 1.6em;
+  text-align: justify;
+  color: white;
+}
+
+/*Body styles*/
+.body-container {
+  background-color: #eaeef0;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+.body-content {
+  width: 85%;
+  height: 100%;
+  display: flex;
+}
+.info-one {
+  padding: 15px;
+  flex: 2;
+  background-color: white;
+  position: relative;
+  top: -8vh;
+  border-radius: 4px;
+  height: 100%;
+  margin-right: 15px;
+}
+.info-two {
+  padding: 15px;
+  margin-left: 15px;
+
+  flex: 1;
+  background-color: white;
+  position: relative;
+  top: -8vh;
+  border-radius: 4px;
+  height: 100%;
+}
+.info-title {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.info-text {
+  text-align: justify;
+}
+
+/*Footer styles*/
+.footer {
+  background-color: rgba(108, 99, 255, 0.8);
+  color: white;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7em;
+}
